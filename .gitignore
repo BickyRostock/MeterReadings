@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MeterReadings/obj
+/MeterReadings.Common/obj
+/MeterReadings.Common.UnitTests/obj
+/MeterReadings.IntegrationTests/obj
+/MeterReadings.Service/obj
+/MeterReadings.UnitTests/obj
+/MeterReadings.Service/appsettings.json
+/MeterReadings.Service/appsettings.json%

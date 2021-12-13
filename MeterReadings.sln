@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeterReadings", "MeterReadings\MeterReadings.csproj", "{683B854D-41D6-444E-AD00-32D8C534A531}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeterReadings.Service", "MeterReadings.Service\MeterReadings.Service.csproj", "{B33E08C4-E8C3-4E0C-A3E1-DEB25CF1F811}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeterReadings.Common", "MeterReadings.Common\MeterReadings.Common.csproj", "{ACCAFD91-DB14-432E-8CB3-54C7B58E0C28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeterReadings.Service.UnitTests", "MeterReadings.UnitTests\MeterReadings.Service.UnitTests.csproj", "{8BE1DAE4-29DD-40B0-9FC3-9592ADAFAD9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReadings.IntegrationTests", "MeterReadings.IntegrationTests\MeterReadings.IntegrationTests.csproj", "{11A2CDA6-E2FE-4259-A44C-A331843F99DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterReadings.Common.UnitTests", "MeterReadings.Common.UnitTests\MeterReadings.Common.UnitTests.csproj", "{6A0AA62E-F854-4495-ABA4-73E99568D22D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{683B854D-41D6-444E-AD00-32D8C534A531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683B854D-41D6-444E-AD00-32D8C534A531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683B854D-41D6-444E-AD00-32D8C534A531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683B854D-41D6-444E-AD00-32D8C534A531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B33E08C4-E8C3-4E0C-A3E1-DEB25CF1F811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B33E08C4-E8C3-4E0C-A3E1-DEB25CF1F811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B33E08C4-E8C3-4E0C-A3E1-DEB25CF1F811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B33E08C4-E8C3-4E0C-A3E1-DEB25CF1F811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACCAFD91-DB14-432E-8CB3-54C7B58E0C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACCAFD91-DB14-432E-8CB3-54C7B58E0C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACCAFD91-DB14-432E-8CB3-54C7B58E0C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACCAFD91-DB14-432E-8CB3-54C7B58E0C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE1DAE4-29DD-40B0-9FC3-9592ADAFAD9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE1DAE4-29DD-40B0-9FC3-9592ADAFAD9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE1DAE4-29DD-40B0-9FC3-9592ADAFAD9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE1DAE4-29DD-40B0-9FC3-9592ADAFAD9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A2CDA6-E2FE-4259-A44C-A331843F99DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A2CDA6-E2FE-4259-A44C-A331843F99DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A2CDA6-E2FE-4259-A44C-A331843F99DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A2CDA6-E2FE-4259-A44C-A331843F99DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0AA62E-F854-4495-ABA4-73E99568D22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0AA62E-F854-4495-ABA4-73E99568D22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0AA62E-F854-4495-ABA4-73E99568D22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0AA62E-F854-4495-ABA4-73E99568D22D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6BA970C-D923-4547-8379-CBEE1500EFFB}
+	EndGlobalSection
+EndGlobal
